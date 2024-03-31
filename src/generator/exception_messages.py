@@ -1,0 +1,1 @@
+STRING_CAN_NOT_BE_NULL_OR_EMPTY="String can not be null or empty"
