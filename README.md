@@ -41,11 +41,11 @@ If only where were a way to algorithmically generate the same random string base
 
 So, I'll take a hash based on the name of the platform that the password is for, along with the only password I am caring to remember! I am mentioning this special password a lot, so lets give it a name - `universal_password`.
 
-| Platform  | Value Getting Hashed |                              Password                               |
-| :-------: | :------------------: | :-----------------------------------------------------------------: |
-| Instagram |   BusterInstagram    | dd19d69f912e3768c25b722148f2322355323505f8ee65baf3c79267d211fa97!?$ |
-|  Twitter  |    BusterTwitter     | 1beb8fb7252c91fa1aeaf458e6dea39a5c348a6be2f39638679e229dffcd1643!?$ |
-| Discover  |    BusterDiscover    | a8dd0d030e7455ccba63a62c23abdc6c88e2f6170ccb9becbce17e57fafa55dc!?$ |
+| Platform  | Value Getting Hashed |                             Password                             |
+| :-------: | :------------------: | :--------------------------------------------------------------: |
+| Instagram |   BusterInstagram    | dd19d69f912e3768c25b722148f2322355323505f8ee65baf3c79267d211fa97 |
+|  Twitter  |    BusterTwitter     | 1beb8fb7252c91fa1aeaf458e6dea39a5c348a6be2f39638679e229dffcd1643 |
+| Discover  |    BusterDiscover    | a8dd0d030e7455ccba63a62c23abdc6c88e2f6170ccb9becbce17e57fafa55dc |
 
 Ehhh... okay, they're complicated and different! But those are too long and complicated. What if I need to type it out by hand? And what about passwords requiring that a special character is added? Or a number?
 
