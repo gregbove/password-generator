@@ -1,7 +1,7 @@
 import unittest
-from generator.engine import generate_password
 
-from generator.constants import RULE_SATISFYING_STRING, PASSWORD_HASH_LENGTH
+from src.generator.engine import generate_password
+from src.generator.constants import RULE_SATISFYING_STRING, PASSWORD_HASH_LENGTH
 
 class GeneratorTests(unittest.TestCase):
 

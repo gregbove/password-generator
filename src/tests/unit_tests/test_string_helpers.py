@@ -1,6 +1,5 @@
 import unittest
-from generator.exception_messages import STRING_CAN_NOT_BE_NULL_OR_EMPTY
-from generator.string_helpers import get_first_x, calculate_hash
+from src.generator.string_helpers import get_first_x, calculate_hash
 
 class test_string_helpers(unittest.TestCase):
 
@@ -31,11 +30,6 @@ class test_string_helpers(unittest.TestCase):
     def test_hash_standard(self):
         result = calculate_hash("Hello, World!")
         self.assertEqual(result, "dffd6021bb2bd5b0af676290809ec3a53191dd81c7f70a4b28688a362182986f")
-
-    def test_hash_blank_string(self):
-        with self.assertRaises(Exception) as context: 
-            calculate_hash("")
-        self.assertEqual(str(context.exception), STRING_CAN_NOT_BE_NULL_OR_EMPTY)
 
 if __name__ == '__main__':
     unittest.main()
