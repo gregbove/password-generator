@@ -1,4 +1,6 @@
 # TODO tab completition?
+alias pq=my-password-please
+
 my-password-please() {
     if [ "$#" -ne 2 ]; then
         echo "Error: Please provide arguments."
