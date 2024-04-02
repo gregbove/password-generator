@@ -1,7 +1,7 @@
 import sys
 import os
 
-def setup_project_path():
+def pytest_configure():
     # (.../password-generator/src/tests)
     test_dir = os.path.dirname(os.path.abspath(__file__))
 
