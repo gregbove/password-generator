@@ -2,12 +2,7 @@
 
 # Get the parent directory (src)
 TESTS_DIR=$(dirname "$(cd "$(dirname "$0")" && pwd)")
+echo $TESTS_DIR
 
-# Run all test files in the unit-tests folder
-for test_file in "$TESTS_DIR/unit-tests"/*.py; do
-    if [ -f "$test_file" ]; then
-        # echo "Running tests in $test_file"
-        pytest "$test_file"
-        # echo "-------------------------------------------"
-    fi
-done
+# Run all test files in the tests folder
+pytest $TESTS_DIR
