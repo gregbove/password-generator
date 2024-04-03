@@ -23,9 +23,7 @@ So I want to be able to have a bunch of passwords, while only remembering 1? I h
 |  Twitter  |   BusterTwitter    |
 | Discover  |   BusterDiscover   |
 
-Hmm... not complicated enough for me yet!
-
-If only where were a way to algorithmically generate the same random string based on some inputs, but not be able to get the inputs from the output... Wait! Sounds familiar! Sounds like a good hold hash function could work here!
+Not exacly 'secure' passwords...
 
 ### PART TWO
 
