@@ -9,16 +9,6 @@ I wrote this program in attempt to solve a fun password management problem I hav
 
 Fun problem, huh?
 
-## The Problems
-
-### 1. Not all _the same_...
-
-Hopefully it is clear to see that using the same password for everything poses a **significant** security risk. All it takes is 1 slip up, and now someone can access your email, bank account(s), instagram, twitter, etc.
-
-### 2. Not all _different_...
-
-What're you crazy? I have to remember more than one password!? Outrageous!
-
 ## The Solution
 
 TL; DR - I take my universal passcode, add the platform name, take a hash of that value, trim it to a length I like, and then add some special characters to make sure it passes as a password.
