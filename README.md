@@ -41,7 +41,7 @@ Ehhh... okay, they're complicated and different! But those are too long and comp
 
 Lets configure these passwords a bit more to my liking.
 
-First, let's consider the problem of length - Right away, I can tell that a password like the ones in the table above would be _quite_ difficult to type out, if needed. So, let's take a substring of some length and only take the first few characters of the hash. For that, I have defined a constant of `PASSWORD_HASH_LENGTH`, which I think 16 is a fair value for.
+First, let's consider the problem of length - Right away, I can tell that a password like the ones in the table above would be _quite_ difficult to type out, if needed. So, let's take a substring of some length and only take the first few characters of the hash. For that, I have an env var `PASSWORD_HASH_LENGTH`.
 
 Next, let's consider the problem of complexity - Most platforms will require that a password has some capitals, some special characters, etc. For that, I'll just append a string with these funky characters to the end of the hash - and I defined this as `RULE_SATISFYING_STRING`.
 

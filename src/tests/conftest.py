@@ -11,4 +11,7 @@ def pytest_configure():
      # (.../password-generator/src/generator)
     generator_dir = os.path.join(project_dir, 'generator')
 
+    # Tests assume env var value is 16
+    os.environ['PASSWORD_HASH_LENGTH'] = '16'
+
     sys.path.insert(0, generator_dir)
